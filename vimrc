@@ -35,6 +35,8 @@ syntax enable
 set cursorline
 " hi CursorLine term=bold cterm=bold ctermfg=10 ctermbg=0 guibg=Grey90
 set nowrap
+set splitright " When performing :vs <filename> the file is opened in the right split
+" set splitbelow " I prefer the default right now, but this is the corresponding horizontal option to the above
 
 set scrolloff=8
 set sidescroll=1
